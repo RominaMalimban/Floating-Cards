@@ -24,6 +24,10 @@ main::after{
     display: table;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* regole header */
 header{
     height: 100px;
@@ -43,10 +47,6 @@ section{
 
 .intro{
     text-align: center;
-    /* debug */
-    /* background-color: coral; */
-    /* border: 1px solid black; */
-    /* height: 100px; */
 }
 
 .card{
@@ -57,4 +57,16 @@ section{
     background-color: crimson;
     height: 200px;
     border: 1px solid black;
+}
+
+.card img{
+    float: left;
+}
+.card a{
+    color: rgb(0, 128, 255);
+    display: block;
+}
+
+.presentazione{
+    background-color: darkkhaki;
 }
