@@ -88,3 +88,7 @@ main{
     color: rgb(0, 128, 255);
     display: block;
 }
+
+.presentazione a:hover{
+    color: #fff;
+}
