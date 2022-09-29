@@ -11,6 +11,10 @@ body{
     font-size: 14px;
 }
 
+img{
+    max-width: 100%;
+}
+
 .container{
     width: 80%;
     margin: 10px auto;
@@ -44,9 +48,6 @@ main{
     margin-left: -10px;
     margin-right: -10px;
 }
-section{
-    font-weight: normal;
-}
 
 .intro{
     text-align: center;
@@ -55,17 +56,19 @@ section{
 .card{
     width: calc(100% / 3 - 20px);
     float: left;
-    margin: 30px 10px;
-    /* debug */
+    margin: 20px 10px;
     background-color: black;
-    height: 200px;
-    border: 1px solid black;
+    /* debug */
+    /* height: 200px;
+    border: 1px solid black; */
 }
 
 .card img{
+    width: 40%;
     float: left;
     height: 150px;
 }
+
 .card a{
     color: rgb(0, 128, 255);
     display: block;
@@ -73,4 +76,14 @@ section{
 
 .card h4, span{
     color: white;
+}
+
+.presentazione{
+    padding: 20px;
+    font-size: 18px;
+}
+
+.presentazione span{
+    display: inline-block;
+    padding: 20px 0;
 }
