@@ -17,9 +17,7 @@ img{
 
 .container{
     width: 80%;
-    margin: 10px auto;
-    /* debug */
-    border: 1px solid black;   
+    margin: 10px auto;   
 }
 
 main::after{
@@ -51,6 +49,7 @@ main{
 
 .intro{
     text-align: center;
+    margin: 20px 0;
 }
 
 .card{
@@ -58,9 +57,6 @@ main{
     float: left;
     margin: 20px 10px;
     background-color: black;
-    /* debug */
-    /* height: 200px;
-    border: 1px solid black; */
 }
 
 .card img{
@@ -79,8 +75,9 @@ main{
 }
 
 .presentazione{
+    float: left;
     padding: 20px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .presentazione span{
