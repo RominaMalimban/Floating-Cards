@@ -40,7 +40,10 @@ header h1{
 }
 
 /* regole main */
-
+main{
+    margin-left: -10px;
+    margin-right: -10px;
+}
 section{
     font-weight: normal;
 }
@@ -54,7 +57,7 @@ section{
     float: left;
     margin: 30px 10px;
     /* debug */
-    background-color: crimson;
+    background-color: black;
     height: 200px;
     border: 1px solid black;
 }
@@ -68,12 +71,6 @@ section{
     display: block;
 }
 
-.presentazione{
-    background-color: darkkhaki;
-
+.card h4, span{
+    color: white;
 }
-
-/* .presentazione span{
-    display: inline-block;
-    padding: 10px 0;
-} */
