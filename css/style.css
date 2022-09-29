@@ -61,6 +61,7 @@ section{
 
 .card img{
     float: left;
+    height: 150px;
 }
 .card a{
     color: rgb(0, 128, 255);
@@ -69,4 +70,10 @@ section{
 
 .presentazione{
     background-color: darkkhaki;
+
 }
+
+/* .presentazione span{
+    display: inline-block;
+    padding: 10px 0;
+} */
