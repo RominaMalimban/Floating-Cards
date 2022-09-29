@@ -7,7 +7,6 @@
 
 body{
     font-family: 'Fredoka', sans-serif;
-    /* font-family: 'Fredoka One', cursive; */
     font-size: 14px;
 }
 
@@ -31,18 +30,21 @@ a{
 }
 
 /* regole header */
+
 header{
     height: 100px;
 }
 
 header h1{
-    color: rgb(231, 21, 77);
+    font-family: 'Fredoka One', cursive;
+    color: #e7154d;
     line-height: 100px;
     text-align: center;
-    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
 }
 
 /* regole main */
+
 main{
     margin-left: -10px;
     margin-right: -10px;
@@ -51,6 +53,7 @@ main{
 .intro{
     text-align: center;
     margin: 20px 0;
+    font-size: 20px;
 }
 
 .card{
@@ -60,28 +63,28 @@ main{
     background-color: black;
 }
 
-.card img{
-    width: 40%;
-    float: left;
-    height: 150px;
-}
-
-.card a{
-    color: rgb(0, 128, 255);
-    display: block;
-}
-
 .card h4, span{
     color: white;
 }
 
+.card img{
+    width: 40%;
+    height: auto;
+    float: left;
+}
+
 .presentazione{
     float: left;
-    padding: 20px;
+    padding: 20px 10px;
     font-size: 16px;
 }
 
 .presentazione span{
     display: inline-block;
-    padding: 20px 0;
+    padding: 25px 0;
+}
+
+.presentazione a{
+    color: rgb(0, 128, 255);
+    display: block;
 }
